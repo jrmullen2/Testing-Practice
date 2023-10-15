@@ -17,4 +17,5 @@ test("Take two numbers and return the correct calculation", () => {
 test("takes a string and a shift factor and returns it with each character “shifted”", () => {
     expect(caesarCipher("Cipher", 2)).toBe("Ekrjgt");
     expect(caesarCipher("ZipzaP", 6)).toBe("FovfgV");
+    expect(caesarCipher("!@#$%^&*()", 10)).toBe("+J-./h0423");
 })
